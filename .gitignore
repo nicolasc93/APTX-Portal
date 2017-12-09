@@ -1,0 +1,4 @@
+# Files which will be ignored by this repo
+
+.DS_Store
+*/.DS_Store
