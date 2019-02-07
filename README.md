@@ -1,2 +1,7 @@
-# APTX_NewPortal
-The new portal site for Detective Conan Firm.
+# APTX-Portal
+
+名侦探柯南事务所主页工程
+* old文件夹：苏帆2017年完成的初版
+* new文件夹：工程源文件存放区，所有代码修改、提交请在此文件夹进行！
+
+issue报告请在事务所论坛联系Nicolas-C (或者在QQ/微信上敲我)

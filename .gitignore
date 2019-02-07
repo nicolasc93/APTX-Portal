@@ -1,4 +1,9 @@
 # Files which will be ignored by this repo
 
+# IDE related
+.idea
+idea/*
+
+# misc
 .DS_Store
-*/.DS_Store
+._*
