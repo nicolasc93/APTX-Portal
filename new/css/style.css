@@ -5,26 +5,28 @@
 
 html, body { font-size: 16px; }
 
+/*1st header*/
 .header1 { margin-bottom: 15px; }
 .header1 img { width: 100%; }
 
+/*thumbnail navigator*/
 .navbar {
     padding: 5px;
     background: url("../static/nav-line.png") no-repeat center bottom;
     background-size: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .navbar li {
         height: 30px;
         padding: 5px 5px 0;
     }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     .navbar li {
         height: 30px;
         padding: 5px 5px 0;
-        margin: 0 2vw;
+        margin: 0 2.4vw;
     }
 }
 
@@ -33,5 +35,16 @@ html, body { font-size: 16px; }
     background-size: 100% 100%;
 }
 
-.footer { font-size: 0.9rem; }
-.footer img { width: 100%; margin-top: -6vw; }
+/*footer*/
+.footer {
+    font-size: 0.9rem;
+    position: relative;
+}
+
+.footer img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -6vw;
+    z-index: -1;
+}
