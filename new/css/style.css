@@ -3,7 +3,13 @@
     padding: 0;
 }
 
-html, body { font-size: 16px; }
+html, body { font-size: 14.5px; }
+
+.uk-panel-box {
+    border: 1px solid #FBB450;
+    border-radius: 5px;
+    margin-top: 5px;
+}
 
 /*1st header*/
 .header1 { margin-bottom: 15px; }
@@ -35,11 +41,61 @@ html, body { font-size: 16px; }
     background-size: 100% 100%;
 }
 
+/*home: conan-news*/
+.conan-news {
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid;
+}
+
+/*home: conan-update*/
+.conan-update {
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid;
+}
+
+/*home: forum-hot*/
+.forum-hot {
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid;
+}
+
+.fh a { color: black; }
+.fh a:hover { color: #FFCC60; }
+
+.fh img { width: 50px; }
+
+.fh span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 67.5%;
+    word-wrap: break-word;
+}
+
+/*home: forum-selection*/
+.forum-selection {
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid;
+}
+
+.fs.uk-panel-box { height: 60px; }
+
+.fs a { color: black; }
+.fs a:hover { color: #FFCC60; }
+
+.fs span { display: block; }
+
 /*footer*/
 .footer {
     font-size: 0.9rem;
     position: relative;
 }
+
+.footer a { color: black; }
+.footer a:hover { color: blue; }
 
 .footer img {
     width: 100%;
